@@ -1,7 +1,7 @@
 <project>
     <shortName>peppermeshes</shortName>
     <fullName>Pepper meshes</fullName>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <licenseFile>/home/vrabaud/ros/packages/pepper_meshes/LICENSE</licenseFile>
     <componentList>
         <component>
