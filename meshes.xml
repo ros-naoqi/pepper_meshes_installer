@@ -2,7 +2,7 @@
     <shortName>peppermeshes</shortName>
     <fullName>Pepper meshes</fullName>
     <version>0.2.0</version>
-    <licenseFile>/home/vrabaud/ros/packages/pepper_meshes/LICENSE</licenseFile>
+    <licenseFile>/home/mikael/ros/src/pepper_meshes/LICENSE</licenseFile>
     <componentList>
         <component>
             <name>default</name>
@@ -13,12 +13,12 @@
             <folderList>
                 <folder>
                     <description>Program Files</description>
-                    <destination>${installdir}/pepper_meshes</destination>
+                    <destination>${installdir}</destination>
                     <name>programfiles</name>
                     <platforms>all</platforms>
                     <distributionFileList>
                         <distributionDirectory>
-                            <origin>/home/vrabaud/ros/packages/pepper_meshes/meshes</origin>
+                            <origin>/home/mikael/ros/src/pepper_meshes/meshes</origin>
                         </distributionDirectory>
                     </distributionFileList>
                     <shortcutList>
@@ -77,7 +77,7 @@
     <licenseFileList>
         <licenseFile>
             <code>en</code>
-            <file>/home/vrabaud/ros/packages/pepper_meshes/LICENSE</file>
+            <file>/home/mikael/ros/src/pepper_meshes/LICENSE</file>
         </licenseFile>
     </licenseFileList>
     <parameterList>
@@ -86,7 +86,7 @@
             <description>Installer.Parameter.installdir.description</description>
             <explanation>Installer.Parameter.installdir.explanation</explanation>
             <value></value>
-            <default>~/.ros/</default>
+            <default>~/.ros/pepper_meshes/</default>
             <allowEmptyValue>0</allowEmptyValue>
             <cliOptionName>prefix</cliOptionName>
             <mustBeWritable>0</mustBeWritable>
