@@ -13,7 +13,7 @@
             <folderList>
                 <folder>
                     <description>Program Files</description>
-                    <destination>${installdir}/nao_meshes</destination>
+                    <destination>${installdir}/pepper_meshes</destination>
                     <name>programfiles</name>
                     <platforms>all</platforms>
                     <distributionFileList>
